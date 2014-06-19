@@ -16,7 +16,8 @@ makeCacheMatrix <- function(x = matrix())
 			set <- function (x1)
 			{		x <<- x1
 
-			## The <<- symbol is used to assign values to the matrix 					## in a environment different from the current one
+			## The <<- symbol is used to assign values to the matrix 
+			## in a environment different from the current one
 
 			}
 
@@ -45,7 +46,8 @@ makeCacheMatrix <- function(x = matrix())
 
 ## Write a short comment describing this function
 ## This function has two functionalities. It calls the cache inverse matrix data if the cache
-## contains the data. Otherwise is calculates the inverse matrix and assigns the value to the 	## cache inverse matrix (i) 
+## contains the data. Otherwise is calculates the inverse matrix and assigns the value to the 
+## cache inverse matrix (i) 
 	
 cacheSolve <- function(x, ...)
 {
